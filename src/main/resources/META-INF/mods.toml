@@ -9,9 +9,9 @@ license="All Rights Reserved"
 #clientSideOnly=true #optional, default=false
 
 [[mods]]
-modId="examplemod"
+modId="testmod"
 version="1.0.0"
-displayName="Example Mod"
+displayName="Test Mod"
 #updateJSONURL="https://example.com/updates.json" #optional
 #displayURL="https://example.com/" #optional
 #logoFile="examplemod.png" #optional
@@ -22,14 +22,14 @@ authors="YourNameHere, OtherNameHere" #optional
 description='''Example mod description.
 Newline characters can be used like this, and rendered on the mods screen properly.'''
 
-[[dependencies.examplemod]] #recommended
+[[dependencies.testmod]] #recommended
     modId="forge"
     mandatory=true
     versionRange="[63,)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.examplemod]] #recommended
+[[dependencies.testmod]] #recommended
     modId="minecraft"
     mandatory=true
     versionRange="[26.1.1,26.2,)"
