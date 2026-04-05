@@ -14,7 +14,7 @@ version="1.0.0"
 displayName="Test Mod"
 #updateJSONURL="https://example.com/updates.json" #optional
 #displayURL="https://example.com/" #optional
-#logoFile="examplemod.png" #optional
+#logoFile="testmod.png" #optional
 #credits="" #optional
 authors="YourNameHere, OtherNameHere" #optional
 #displayTest="MATCH_VERSION" #optional, default=MATCH_VERSION when not clientSideOnly, else IGNORE_ALL_VERSION
