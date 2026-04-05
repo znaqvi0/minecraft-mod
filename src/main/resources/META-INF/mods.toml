@@ -3,7 +3,7 @@
 # References: https://github.com/MinecraftForge/MDKExamples
 
 modLoader="javafml"
-loaderVersion="[63,)"
+loaderVersion="[61,)"
 license="All Rights Reserved"
 #issueTrackerURL="https://github.com/MyOrganization/MyMod/" #optional
 #clientSideOnly=true #optional, default=false
@@ -14,7 +14,7 @@ version="1.0.0"
 displayName="Test Mod"
 #updateJSONURL="https://example.com/updates.json" #optional
 #displayURL="https://example.com/" #optional
-#logoFile="testmod.png" #optional
+#logoFile="examplemod.png" #optional
 #credits="" #optional
 authors="YourNameHere, OtherNameHere" #optional
 #displayTest="MATCH_VERSION" #optional, default=MATCH_VERSION when not clientSideOnly, else IGNORE_ALL_VERSION
@@ -25,13 +25,13 @@ Newline characters can be used like this, and rendered on the mods screen proper
 [[dependencies.testmod]] #recommended
     modId="forge"
     mandatory=true
-    versionRange="[63,)"
+    versionRange="[61,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.testmod]] #recommended
     modId="minecraft"
     mandatory=true
-    versionRange="[26.1.1,26.2,)"
+    versionRange="[1.21.11,1.22,)"
     ordering="NONE"
     side="BOTH"
